@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(241, 223, 223);
+    background-color: rgb(255, 247, 247);
 }
 
 
@@ -23,16 +23,32 @@ ul{
 }
 
 
-a{
 
-   color: black;
-   text-decoration: none;
-   transition:color 0.3s;
-
+.recipe{
+    background-color: rgb(230, 76, 76);
+    color:white;
+    display: block;
+    margin: 20px auto;
+    list-style: none;
+    width: fit-content;
+    padding: 20PX;
+    border:2px solid;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: transform 0.3s;
 }
 
 
 
-a:hover{
-    color: red;
+
+
+li{
+    list-style: none;
 }
+
+
+.recipe:hover{
+
+    transform: scale(1.5);
+}
+

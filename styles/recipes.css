@@ -53,10 +53,10 @@ ul,ol{
 }
 
 
-a{
-    width: fit-content;
-    display: block;
-    margin: auto;
+a{  
+    display: inline-block;
+    margin: 1rem auto;
+    
     border: 2px solid;
     border-radius: 5px;
     padding: 0.2rem;
